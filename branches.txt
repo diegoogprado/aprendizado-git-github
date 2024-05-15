@@ -1,0 +1,18 @@
+As Branches são como ramos em um determinado repositório.
+Nelas você pode dividir os projetos. Cada ramo recebendo novos commits com alterações nos códigos
+e posteriormente podendo ser "incorporados" ao ramo principal.
+
+Alguns comandos voltados para Branches
+
+git branch (mostra quantas branches existem no projeto.)
+
+git branch <name> (cria uma nova branch com o <name>)
+
+git checkout <name> ( muda da branch atual para a branch <name>)
+
+git branch -d <name> (Deleta a branch <name>)
+
+git checkout -b <name> ( cria uma branch <name> e já altera para ela )
+
+git merge <branch name> (Unifica os arquivos de uma branch em outra. Sendo a branch atual que irá receber
+os arquivos da <branch name>)
