@@ -1,0 +1,2 @@
+O Git e Github são ferramentas muito úteis e bastante utilizadas no que se trata ao gerenciamento
+de versão e "compartilhamento" de códigos.
