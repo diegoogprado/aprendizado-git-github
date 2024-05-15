@@ -1,0 +1,13 @@
+Para instalar o git, usando o terminal do ubuntu, podemos usar o comando 
+# apt-get install git
+Para outros sistemas, podemos acessar o site git-scm.com/download e seguir os passos.
+
+Para configurar o git, precisamos inserir algumas informações básicas:
+git name e git email
+Devemos acessar o terminal e digitar o seguinte comando:
+git config --global user.name "seu nome" 
+git config --global user.email "seu email@...."
+
+Para consultar se foi feito corretamente, podemos usar o comando:
+gif config --list
+devendo em seguida ser mostrado no terminal seu user.email e seu user.name.
