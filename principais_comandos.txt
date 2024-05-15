@@ -1,0 +1,28 @@
+No Git temos diversos comandos:
+
+git init (Prepara um diretório git)
+
+git status ( mostra os status dos arquivos dentro do diretório, se estão trakeados ou não.)
+
+git add "filename" ( muda um arquivo específico para staged, ou seja, este arquivo estará pronto para ser commitado.)
+
+git add . (insere todos os arquivos unstaged para staged)
+
+git commit -m 'comentário' ( dá commit em todos os arquivos staged, o espaço de comentário deve ser
+preenchido com informações sobre o que foi alterado nesse commit.)
+
+git log (mostra o log dos últimos commits realizados)
+
+git log --pretty=oneline ( mostra o log em apenas uma linha)
+
+git log --stat (mostra os status de cada commit feito)
+
+git diff (mostra os arquivos e o que foi alterado nele. também pode ser usado com o nome do
+arquivo para mostrar um documento específico e suas diferenças)
+
+git diff --name-only ( mostra apenas o nome do arquivo que teve alteração.)
+
+git commit --amend ( adiciona um arquivo em um commit já realizado {se houver arquivo staged}, se não houver,
+será possível usá-lo apenas para alterar o comentário do commit.)
+
+git reset HEAD "file.name" (altera o estado do arquivo de staged para unstaged)
