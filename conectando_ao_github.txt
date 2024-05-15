@@ -1,0 +1,13 @@
+GITHUB
+no terminal na pasta de destino.
+
+git clone <endereço https> (irá clonar o projeto para seu diretório )
+
+git remote add origin <https do projeto> (adiciona uma origem remota da minha máquina para o projeto no github )
+
+git push origin master (Irá subir o código para o repositório)
+inserir usuário e o token para finalizar.
+
+git pull origin master (vai puxar os arquivos da branch master do repositório )
+
+touch .gitignore ( cria uma arquivo .gitignore, onde se escrito nesse arquivo o nome de algum outro arquivo, o git irá ignora-lo.)
